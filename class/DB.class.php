@@ -12,7 +12,7 @@ class DB {
 			} catch (PDOException $e) {
 				if ($e->getCode() == 2002) {
 				 	echo "ERRO: ".$e->getCode()." Connection Error<br>";
-				 	//echo "ERRO: ".$e->getLine();
+				 	echo "ERRO: ".$e->getLine();
 				}else{
 					$e->getMessage();	
 				} 
