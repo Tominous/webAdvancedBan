@@ -3,8 +3,8 @@ require_once("DB.class.php");
 abstract Class Crud extends DB {
 	protected $table;
 
-	// abstract function update($id);
-	// abstract function insert();
+	 abstract function update($id);
+	 abstract function insert();
 
 	
 	// BUSCAR POR NOME
